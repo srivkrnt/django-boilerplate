@@ -1,0 +1,35 @@
+[
+    {
+        "model": "accounts.permission",
+        "pk": 1,
+        "fields": {
+            "name": "contract.can_view",
+            "display_name": "View Contract",
+            "description": "Permission to view a contract",
+            "created_at": "2023-02-21 14:16:42.911313+00",
+            "updated_at": "2023-02-21 14:16:42.911313+00"
+        }
+    },
+    {
+        "model": "accounts.permission",
+        "pk": 2,
+        "fields": {
+            "name": "contract.can_edit",
+            "display_name": "Edit Contract",
+            "description": "Permission to edit a contract",
+            "created_at": "2023-02-21 14:16:42.911313+00",
+            "updated_at": "2023-02-21 14:16:42.911313+00"
+        }
+    },
+    {
+        "model": "accounts.permission",
+        "pk": 3,
+        "fields": {
+            "name": "alerts.can_view",
+            "display_name": "View Alerts",
+            "description": "Permission to view alerts",
+            "created_at": "2023-02-21 14:16:42.911313+00",
+            "updated_at": "2023-02-21 14:16:42.911313+00"
+        }
+    }
+]
